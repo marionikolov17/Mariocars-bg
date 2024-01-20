@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .nav-btn-hover {
+        @apply transition hover:rounded-full hover:bg-slate-200 hover:text-sky-700
+    }
+}
